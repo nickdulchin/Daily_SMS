@@ -13,7 +13,7 @@ total_num = latest['confirmed']
 #covid nyt
 page = requests.get("https://www.nytimes.com/")
 soup = BeautifulSoup(page.content, 'html.parser')
-new = soup.find('h4',{"class":"svelte-hqkugk"}).text
+new = soup.find('h4',{"class":"svelte-pnqaks"}).text
 
 #biden
 page = requests.get("https://projects.economist.com/us-2020-forecast/president")
